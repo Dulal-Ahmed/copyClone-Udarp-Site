@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+}
+
+body{
+  overflow-x:hidden;
+  width:100%;
+} 
+main{
+    position: relative;
+    width: 100vw;
+}
+main .background{
+    width: 100vw;
+    position: absolute;
+    z-index: -9;
+}
+.background img{
+    width: 100vw;
+}
+main .logo{
+    width: 100vw;
+     position: absolute;
+     top: 10vh;
+}
+.logo img{
+    width: 100vw;
+}
+main section{
+    width: 100%;
+    position: absolute;
+    top: 120vw;
+    overflow-x: clip;
+  
+}
+section div img{
+    overflow-x: hidden;
+    width: 100vw; 
+}
+section .right{
+    width: 100vw;
+    position: absolute;
+    right: -30vw;
+    top: 2vw;
+}
+section .left{
+    width: 100vw;
+    position: absolute;
+    left: -30vw;
+    top: 55vw;
+
+}
+.textright{
+    width: 100vw;
+    position: absolute;
+    top: 28vw;
+    display: flex;
+    justify-content: end;
+    z-index: 10;
+}
+.textright p{
+    font-family: 'Times New Roman';
+    width: 50%;
+    text-align: center;
+    font-size: 2.7vw;
+    font-weight:600;
+}
+.textleft{
+    width: 100vw;
+    position: absolute;
+    top: 78vw;
+    display: flex;
+    justify-content: start;
+    z-index: 10;
+}
+.textleft p{
+   
+    width: 45vw;
+    text-align: center;
+    font-size: 2.3vw;
+    font-weight: 450;
+    line-height: 1.2;
+}
+.bigtext{
+    font-size: 2.7vw;
+    font-weight: 500;
+}
